@@ -1,0 +1,5 @@
+script.groovy.sandbox.enabled: true
+script.inline: on
+script.indexed: on
+http.cors.enabled: true
+http.cors.allow-origin: "*"
