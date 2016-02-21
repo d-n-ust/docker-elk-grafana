@@ -2,7 +2,8 @@
 
 Run the ELK stack (Elasticseach, Logstash, Kibana) + grafana stack with Docker.
 
-It will give you the ability to analyze any data set by using the searching/aggregation capabilities of Elasticseach and the visualization power of Kibana and Grafana (which now supports elasticsearch as a datastore).
+The main purpose for this kind of distribution is educational.
+You can play with ELK stack and compare visual graphs provided by Kibana and Grafana on top elasticsearch data.
 
 Based on the official images:
 
@@ -11,9 +12,7 @@ Based on the official images:
 * [kibana](https://registry.hub.docker.com/_/kibana/)
 * [grafana](https://hub.docker.com/r/grafana/grafana/)
 
-# Requirements
-
-## Setup
+# Setup
 
 1. Install [Docker](http://docker.io) and [Docker-compose](http://docs.docker.com/compose/install/). For OSX and Windows users the most straightforward way is to use [Docker Toolbox](https://www.docker.com/products/docker-toolbox).
 2. Clone this repository
@@ -46,3 +45,10 @@ By default, the stack exposes the following ports:
 *WARNING*: If you're using *boot2docker*, you must access it via the *boot2docker* IP address instead of *localhost*.
 
 *WARNING*: If you're using *Docker Toolbox*, you must access it via the *docker-machine* IP address instead of *localhost*.
+
+This package uses compatible versions across all the products:
+
+* elasticsearch 2.2.0
+* logstash 2.2.0
+* kibana 4.4.0
+* grafana 2.6.0
