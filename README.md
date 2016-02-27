@@ -3,7 +3,7 @@
 Run the ELK stack (Elasticseach, Logstash, Kibana) + grafana stack with Docker.
 
 The main purpose for this kind of distribution is educational.
-You can play with ELK stack and compare visual graphs provided by Kibana and Grafana on top elasticsearch data.
+You can play with ELK stack and compare visual graphs provided by Kibana and Grafana on top of elasticsearch data.
 
 Based on the official images:
 
